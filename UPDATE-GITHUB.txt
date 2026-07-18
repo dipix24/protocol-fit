@@ -1,0 +1,13 @@
+AGGIORNAMENTO RAPIDO
+====================
+
+1. Esporta un backup dalla versione attuale.
+2. Estrai ProtocolFit-PWA-v2.0.zip sul PC.
+3. Nel repository GitHub: Add file > Upload files.
+4. Trascina il CONTENUTO della cartella ProtocolFit-PWA-v2.0.
+5. Conferma la sostituzione dei file e premi Commit changes.
+6. Attendi 2-10 minuti.
+7. Apri il link GitHub Pages in Safari e ricarica.
+8. Chiudi Protocol Fit dalla schermata delle app recenti e riaprila.
+
+Non modificare Settings > Pages se era già configurato su main / root.

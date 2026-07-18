@@ -1,0 +1,14 @@
+PROTOCOL FIT 2.0.0
+==================
+
+- Interfaccia completamente ridisegnata.
+- Database IndexedDB e migrazione automatica dalla v1.
+- Set Autopilot con suggerimenti spiegabili.
+- Logger frictionless con valori precompilati, quick adjust, RIR e undo.
+- Check-in readiness e modalità push / standard / gestione fatica.
+- Analytics locali con volume, serie equivalenti, e1RM, PR e heat map.
+- Misure corporee.
+- Livelli XP e badge orientati alla costanza.
+- Backup esteso e CSV.
+- Service worker aggiornato e cache versionata.
+- Scheda v1.1 preservata integralmente.

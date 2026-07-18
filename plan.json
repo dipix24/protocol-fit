@@ -1,0 +1,1313 @@
+{
+  "name": "Protocol Fit",
+  "version": 2,
+  "phase1": {
+    "id": "phase1",
+    "title": "Fase 01",
+    "durationWeeks": 6,
+    "workouts": [
+      {
+        "id": "p1-d1",
+        "title": "Giorno 01",
+        "subtitle": "Petto · Spalle · Tricipiti",
+        "slot": 1,
+        "exercises": [
+          {
+            "id": "p1-d1-bench",
+            "name": "Panca piana bilanciere",
+            "setCount": 5,
+            "scheme": "5",
+            "restSeconds": 90,
+            "notes": "Progressione principale.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d1-db30",
+            "name": "Distensioni manubri 30°",
+            "setCount": 4,
+            "scheme": "1F · 2W · 1B",
+            "restSeconds": 60,
+            "notes": "1 rest-pause dopo l’ultima working set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d1-fly-flat",
+            "name": "Croci manubri orizzontali",
+            "setCount": 3,
+            "scheme": "8",
+            "restSeconds": 60,
+            "notes": "RIR 2.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d1-cable-high",
+            "name": "Croci ai cavi dall’alto",
+            "setCount": 4,
+            "scheme": "8",
+            "restSeconds": 60,
+            "notes": "RIR 1. All’ultima ripetizione di ogni serie mantieni l’isometria quanto riesci e termina con la massima chiusura.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d1-fly30",
+            "name": "Croci manubri 30°",
+            "setCount": 3,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "RIR 2. 3 secondi di negativa.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d1-lateral",
+            "name": "Alzate laterali manubri",
+            "setCount": 3,
+            "scheme": "10 + 10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d1-front-plate",
+            "name": "Alzate frontali disco",
+            "setCount": 1,
+            "scheme": "5ST",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d1-dip",
+            "name": "DIP",
+            "setCount": 3,
+            "scheme": "Max",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "bodyweight"
+          },
+          {
+            "id": "p1-d1-pushdown",
+            "name": "Tricipiti cavo corda",
+            "setCount": 3,
+            "scheme": "8 + 8",
+            "restSeconds": 60,
+            "notes": "In alternativa usa l’asta dritta.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d1-calf",
+            "name": "Calf 1 gamba",
+            "setCount": 3,
+            "scheme": "30",
+            "restSeconds": 30,
+            "notes": "",
+            "loadMode": "mixed"
+          }
+        ]
+      },
+      {
+        "id": "p1-d2",
+        "title": "Giorno 02",
+        "subtitle": "Dorso · Bicipiti",
+        "slot": 2,
+        "exercises": [
+          {
+            "id": "p1-d2-deadlift",
+            "name": "Stacchi bilanciere",
+            "setCount": 5,
+            "scheme": "5",
+            "restSeconds": 90,
+            "notes": "Nell’ultima serie: variante Romanian, come indicato nella scheda.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d2-row1",
+            "name": "Rematore 1 manubrio",
+            "setCount": 3,
+            "scheme": "1F · 2W",
+            "restSeconds": 60,
+            "notes": "1 rest-pause dopo l’ultima working set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d2-lat-wide",
+            "name": "Lat machine presa larga",
+            "setCount": 4,
+            "scheme": "6",
+            "restSeconds": 60,
+            "notes": "RIR 1. Dopo l’ultima serie riduci il carico del 50% e fai quante ripetizioni riesci.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d2-pulley",
+            "name": "Pulley triangolo",
+            "setCount": 4,
+            "scheme": "8–8",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d2-lat-tri",
+            "name": "Lat machine triangolo",
+            "setCount": 3,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "RIR 2. 2 secondi di isometria.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d2-chin",
+            "name": "Trazioni presa inversa",
+            "setCount": 3,
+            "scheme": "Max",
+            "restSeconds": 60,
+            "notes": "Se non riesci a superare 4 ripetizioni, esegui lat machine presa inversa 3×10.",
+            "loadMode": "bodyweight"
+          },
+          {
+            "id": "p1-d2-shrug",
+            "name": "Scrollate manubri",
+            "setCount": 3,
+            "scheme": "8",
+            "restSeconds": 60,
+            "notes": "RIR 0.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d2-ez",
+            "name": "Bicipiti bilanciere angolato",
+            "setCount": 3,
+            "scheme": "2F · 2W",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d2-hammer",
+            "name": "Bicipiti martello manubri",
+            "setCount": 3,
+            "scheme": "6 + 6",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d2-incline-curl",
+            "name": "Bicipiti manubri panca 45°",
+            "setCount": 4,
+            "scheme": "15",
+            "restSeconds": 60,
+            "notes": "4 secondi a scendere.",
+            "loadMode": "weight"
+          }
+        ]
+      },
+      {
+        "id": "p1-d3",
+        "title": "Giorno 03",
+        "subtitle": "Gambe",
+        "slot": 3,
+        "exercises": [
+          {
+            "id": "p1-d3-squat",
+            "name": "Squat bilanciere",
+            "setCount": 5,
+            "scheme": "5",
+            "restSeconds": 90,
+            "notes": "Progressione principale.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d3-legpress-a",
+            "name": "Leg press",
+            "setCount": 4,
+            "scheme": "1WU · 1F · 2W",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d3-legpress-b",
+            "name": "Leg press",
+            "setCount": 1,
+            "scheme": "30",
+            "restSeconds": 60,
+            "notes": "RIR 0.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d3-bulgarian",
+            "name": "Bulgarian squat",
+            "setCount": 3,
+            "scheme": "10",
+            "restSeconds": 60,
+            "notes": "RIR 0.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d3-legcurl",
+            "name": "Leg curl",
+            "setCount": 4,
+            "scheme": "10",
+            "restSeconds": 60,
+            "notes": "RIR 0.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d3-legext-heavy",
+            "name": "Leg extension",
+            "setCount": 2,
+            "scheme": "2W",
+            "restSeconds": 60,
+            "notes": "3 secondi a scendere.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d3-legext-burn",
+            "name": "Leg extension",
+            "setCount": 3,
+            "scheme": "10 + 10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d3-calf",
+            "name": "Calf",
+            "setCount": 5,
+            "scheme": "30",
+            "restSeconds": 30,
+            "notes": "Alterna l’esecuzione: seduto, in piedi con carico, a ogni allenamento.",
+            "loadMode": "mixed"
+          }
+        ]
+      },
+      {
+        "id": "p1-d4",
+        "title": "Giorno 04",
+        "subtitle": "Spalle · Addome",
+        "slot": 4,
+        "exercises": [
+          {
+            "id": "p1-d4-military",
+            "name": "Military press",
+            "setCount": 5,
+            "scheme": "5",
+            "restSeconds": 60,
+            "notes": "Progressione principale.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d4-lateral",
+            "name": "Alzate laterali manubri",
+            "setCount": 6,
+            "scheme": "1WU · 1F · 3W · 1B",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d4-front-bar",
+            "name": "Alzate frontali bilanciere dritto",
+            "setCount": 3,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "RIR 1.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d4-rear",
+            "name": "Aperture posteriori manubri",
+            "setCount": 4,
+            "scheme": "10 + 10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d4-cable-lateral",
+            "name": "Alzate laterali cavo 1 braccio",
+            "setCount": 3,
+            "scheme": "8 + 8",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d4-arnold",
+            "name": "Arnold press manubri",
+            "setCount": 3,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "RIR 2.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d4-abs-circuit",
+            "name": "Circuito addome",
+            "setCount": 5,
+            "scheme": "4 esercizi × 30 sec",
+            "restSeconds": 40,
+            "notes": "5 giri. Nessun recupero tra gli esercizi; riposa 40 secondi alla fine di ogni giro.",
+            "loadMode": "timed",
+            "circuitSteps": [
+              "Crunch · 30 sec",
+              "Leg raises · 30 sec",
+              "Plank · 30 sec",
+              "Vacuum · 30 sec"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p1-d5-opt2",
+        "title": "Giorno 05",
+        "subtitle": "Richiamo petto · Dorsali · Braccia",
+        "slot": 5,
+        "exercises": [
+          {
+            "id": "p1-d5o2-fly30",
+            "name": "Croci manubri 30°",
+            "setCount": 5,
+            "scheme": "1WU · 2F · 2W",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d5o2-dbflat",
+            "name": "Distensioni manubri orizzontali",
+            "setCount": 2,
+            "scheme": "1F · 1W",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d5o2-pecdeck",
+            "name": "Pectoral machine",
+            "setCount": 4,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "RIR 2. 3 secondi di isometria.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d5o2-pullup",
+            "name": "Trazioni presa larga",
+            "setCount": 4,
+            "scheme": "Max",
+            "restSeconds": 60,
+            "notes": "RIR 0.",
+            "loadMode": "bodyweight"
+          },
+          {
+            "id": "p1-d5o2-row",
+            "name": "Rematore bilanciere",
+            "setCount": 3,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "RIR 2.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d5o2-lat-reverse",
+            "name": "Lat machine presa inversa",
+            "setCount": 3,
+            "scheme": "8",
+            "restSeconds": 60,
+            "notes": "RIR 0.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d5o2-ez-cable-curl-45",
+            "name": "Curl al cavo con bilanciere EZ su panca 45°",
+            "setCount": 3,
+            "scheme": "10–12",
+            "restSeconds": 60,
+            "notes": "Panca a 45°. Mantieni il braccio stabile. RIR 1.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p1-d5o2-single-triceps-straps",
+            "name": "Tricipiti singolo al cavo con straps",
+            "setCount": 3,
+            "scheme": "10 + 10",
+            "restSeconds": 60,
+            "notes": "Un braccio alla volta con strap. RIR 1.",
+            "loadMode": "weight"
+          }
+        ]
+      }
+    ]
+  },
+  "phase2A": {
+    "id": "phase2A",
+    "title": "Fase 02 · Scheda A",
+    "durationWeeks": 4,
+    "workouts": [
+      {
+        "id": "p2a-d1",
+        "title": "Giorno 01",
+        "subtitle": "Scheda A · Petto · Spalle · Tricipiti",
+        "slot": 1,
+        "exercises": [
+          {
+            "id": "p2a-d1-smith30",
+            "name": "Distensioni Multipower 30°",
+            "setCount": 6,
+            "scheme": "1WU · 2F · 2W · 1B",
+            "restSeconds": 75,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d1-bench",
+            "name": "Panca piana bilanciere",
+            "setCount": 4,
+            "scheme": "1F · 2W · 1B",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d1-cablehigh",
+            "name": "Croci ai cavi dall’alto",
+            "setCount": 3,
+            "scheme": "8 + 8",
+            "restSeconds": 60,
+            "notes": "RIR 0.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d1-combo",
+            "name": "Croci manubri 45° + spinta con 2 manubri uniti",
+            "setCount": 4,
+            "scheme": "10 + Max",
+            "restSeconds": 60,
+            "notes": "RIR 2.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d1-dip",
+            "name": "DIP",
+            "setCount": 2,
+            "scheme": "Max",
+            "restSeconds": 60,
+            "notes": "RIR 0.",
+            "loadMode": "bodyweight"
+          },
+          {
+            "id": "p2a-d1-lateral",
+            "name": "Alzate laterali manubri",
+            "setCount": 3,
+            "scheme": "12 + 12",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d1-latfront",
+            "name": "Alzate laterali + alzate frontali manubri",
+            "setCount": 3,
+            "scheme": "10 + Max",
+            "restSeconds": 60,
+            "notes": "Stesso peso: esegui tante frontali quante laterali.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d1-closepush",
+            "name": "Piegamenti presa stretta",
+            "setCount": 3,
+            "scheme": "Max",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "bodyweight"
+          },
+          {
+            "id": "p2a-d1-calf",
+            "name": "Calf pressa",
+            "setCount": 4,
+            "scheme": "30",
+            "restSeconds": 30,
+            "notes": "",
+            "loadMode": "mixed"
+          }
+        ]
+      },
+      {
+        "id": "p2a-d2",
+        "title": "Giorno 02",
+        "subtitle": "Scheda A · Dorso · Bicipiti",
+        "slot": 2,
+        "exercises": [
+          {
+            "id": "p2a-d2-pullup",
+            "name": "Trazioni presa larga",
+            "setCount": 4,
+            "scheme": "8",
+            "restSeconds": 75,
+            "notes": "",
+            "loadMode": "bodyweight"
+          },
+          {
+            "id": "p2a-d2-rowbench",
+            "name": "Rematore 2 manubri panca 30°",
+            "setCount": 3,
+            "scheme": "8 + 8",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d2-pullover-row",
+            "name": "Pullover cavo corda + row cavo basso",
+            "setCount": 3,
+            "scheme": "8 / 10",
+            "restSeconds": 60,
+            "notes": "Se il cavo basso è leggero, usa 2 manubri a 45°.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d2-latwide",
+            "name": "Lat machine presa larga",
+            "setCount": 3,
+            "scheme": "1F · 2W",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d2-row1",
+            "name": "Rematore 1 manubrio",
+            "setCount": 2,
+            "scheme": "6 + 6",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d2-shrug",
+            "name": "Scrollate manubri",
+            "setCount": 3,
+            "scheme": "10 + 10",
+            "restSeconds": 60,
+            "notes": "2 secondi di isometria a ogni ripetizione.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d2-rear",
+            "name": "Aperture posteriori manubri",
+            "setCount": 3,
+            "scheme": "10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d2-altcurl",
+            "name": "Bicipiti manubri alternati",
+            "setCount": 4,
+            "scheme": "2F · 2W",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d2-cablecurl",
+            "name": "Bicipiti cavo basso dritto",
+            "setCount": 4,
+            "scheme": "6 + 6",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d2-together",
+            "name": "Bicipiti manubri insieme",
+            "setCount": 1,
+            "scheme": "5ST",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          }
+        ]
+      },
+      {
+        "id": "p2a-d3",
+        "title": "Giorno 03",
+        "subtitle": "Scheda A · Gambe",
+        "slot": 3,
+        "exercises": [
+          {
+            "id": "p2a-d3-legpress",
+            "name": "Leg press 45°",
+            "setCount": 5,
+            "scheme": "1WU · 2F · 2W",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d3-hack",
+            "name": "Squat Multipower / Hack squat",
+            "setCount": 5,
+            "scheme": "1WU · 2F · 1W · 1B",
+            "restSeconds": 75,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d3-legext",
+            "name": "Leg extension",
+            "setCount": 4,
+            "scheme": "1F · 2W · 1B",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d3-sumo",
+            "name": "Squat sumo 1 manubrio",
+            "setCount": 3,
+            "scheme": "10 + 10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d3-legext1",
+            "name": "Leg extension 1 gamba",
+            "setCount": 4,
+            "scheme": "15",
+            "restSeconds": 60,
+            "notes": "Senza riposo tra le gambe.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d3-hip1",
+            "name": "Hip thrust 1 gamba",
+            "setCount": 4,
+            "scheme": "20",
+            "restSeconds": 60,
+            "notes": "Senza peso.",
+            "loadMode": "bodyweight"
+          },
+          {
+            "id": "p2a-d3-calf",
+            "name": "Calf",
+            "setCount": 4,
+            "scheme": "30",
+            "restSeconds": 30,
+            "notes": "",
+            "loadMode": "mixed"
+          }
+        ]
+      },
+      {
+        "id": "p2a-d4",
+        "title": "Giorno 04",
+        "subtitle": "Scheda A · Petto · Spalle · Tricipiti",
+        "slot": 4,
+        "exercises": [
+          {
+            "id": "p2a-d4-inclinebar",
+            "name": "Panca alta bilanciere",
+            "setCount": 4,
+            "scheme": "1F · 2W · 1B",
+            "restSeconds": 75,
+            "notes": "5 secondi a scendere.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d4-flyflat",
+            "name": "Croci manubri orizzontali",
+            "setCount": 4,
+            "scheme": "1WU · 1F · 2W",
+            "restSeconds": 75,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d4-cablehigh",
+            "name": "Croci cavi dall’alto",
+            "setCount": 4,
+            "scheme": "10 / 10 / 10",
+            "restSeconds": 60,
+            "notes": "Senza cambiare peso: 10 ripetizioni con chiusura delle dita, 10 con chiusura centrale e 10 con chiusura bassa.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d4-shoulder90",
+            "name": "Distensioni manubri seduto (panca 90°)",
+            "setCount": 3,
+            "scheme": "8 + 8",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d4-lateral",
+            "name": "Alzate laterali manubri",
+            "setCount": 4,
+            "scheme": "1F · 2W · 1B",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d4-frontrope",
+            "name": "Alzate frontali corda al cavo",
+            "setCount": 3,
+            "scheme": "10 + 10 + 10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d4-french",
+            "name": "Tricipiti French press orizzontale",
+            "setCount": 3,
+            "scheme": "8 + 8",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2a-d4-pushdown",
+            "name": "Tricipiti cavo asta dritta",
+            "setCount": 3,
+            "scheme": "15",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          }
+        ]
+      }
+    ]
+  },
+  "phase2B": {
+    "id": "phase2B",
+    "title": "Fase 02 · Scheda B",
+    "durationWeeks": 4,
+    "workouts": [
+      {
+        "id": "p2b-d1",
+        "title": "Giorno 01",
+        "subtitle": "Scheda B · Petto · Spalle",
+        "slot": 1,
+        "exercises": [
+          {
+            "id": "p2b-d1-db30",
+            "name": "Distensioni manubri 30°",
+            "setCount": 6,
+            "scheme": "1WU · 2F · 3W",
+            "restSeconds": 75,
+            "notes": "Ultima serie: 3 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d1-smithflat",
+            "name": "Distensioni Multipower orizzontale",
+            "setCount": 4,
+            "scheme": "1F · 3W",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 3 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d1-cablelow",
+            "name": "Croci ai cavi chiusura bassa",
+            "setCount": 3,
+            "scheme": "1F · 2W",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 3 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d1-flyflat",
+            "name": "Croci manubri orizzontali",
+            "setCount": 3,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 2 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d1-chestpress",
+            "name": "Chest press",
+            "setCount": 1,
+            "scheme": "5ST",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d1-dip",
+            "name": "DIP",
+            "setCount": 3,
+            "scheme": "Max",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "bodyweight"
+          },
+          {
+            "id": "p2b-d1-lateral",
+            "name": "Alzate laterali",
+            "setCount": 3,
+            "scheme": "8",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 2 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d1-frontplate",
+            "name": "Alzate frontali disco",
+            "setCount": 2,
+            "scheme": "10",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 2 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d1-calf",
+            "name": "Calf",
+            "setCount": 5,
+            "scheme": "20",
+            "restSeconds": 20,
+            "notes": "",
+            "loadMode": "mixed"
+          }
+        ]
+      },
+      {
+        "id": "p2b-d2",
+        "title": "Giorno 02",
+        "subtitle": "Scheda B · Dorso · Bicipiti",
+        "slot": 2,
+        "exercises": [
+          {
+            "id": "p2b-d2-latwide",
+            "name": "Lat machine presa larga",
+            "setCount": 6,
+            "scheme": "1WU · 2F · 3W",
+            "restSeconds": 75,
+            "notes": "Ultima serie: 3 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d2-pulleytri",
+            "name": "Pulley triangolo",
+            "setCount": 3,
+            "scheme": "1WU · 2W",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 2 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d2-pulleywide",
+            "name": "Pulley presa larga",
+            "setCount": 3,
+            "scheme": "8",
+            "restSeconds": 60,
+            "notes": "1 rest-pause in ogni serie.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d2-shrug",
+            "name": "Scrollate bilanciere",
+            "setCount": 4,
+            "scheme": "8",
+            "restSeconds": 60,
+            "notes": "4 secondi di isometria a ogni ripetizione.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d2-pullover",
+            "name": "Pullover corda al cavo",
+            "setCount": 3,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 2 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d2-rearcombo",
+            "name": "Aperture posteriori + face pull + aperture presa a martello",
+            "setCount": 3,
+            "scheme": "10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d2-ropecurl",
+            "name": "Bicipiti corda al cavo",
+            "setCount": 3,
+            "scheme": "1F · 2W",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 2 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d2-ez",
+            "name": "Bicipiti bilanciere angolato",
+            "setCount": 3,
+            "scheme": "10",
+            "restSeconds": 60,
+            "notes": "Ultima serie: 2 drop-set.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d2-straight",
+            "name": "Bicipiti cavo basso asta dritta",
+            "setCount": 1,
+            "scheme": "5ST",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          }
+        ]
+      },
+      {
+        "id": "p2b-d3",
+        "title": "Giorno 03",
+        "subtitle": "Scheda B · Gambe",
+        "slot": 3,
+        "exercises": [
+          {
+            "id": "p2b-d3-legext-a",
+            "name": "Leg extension",
+            "setCount": 2,
+            "scheme": "10 + 10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d3-legext-b",
+            "name": "Leg extension",
+            "setCount": 1,
+            "scheme": "5ST",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d3-legpress",
+            "name": "Leg press 45°",
+            "setCount": 4,
+            "scheme": "8",
+            "restSeconds": 60,
+            "notes": "In ogni serie: 1 rest-pause.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d3-curl-lunge",
+            "name": "Leg curl + affondi alternati 2 manubri",
+            "setCount": 3,
+            "scheme": "12 + 24 affondi totali",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d3-hip-sumo",
+            "name": "Hip thrust bilanciere + squat sumo 1 manubrio",
+            "setCount": 4,
+            "scheme": "10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d3-abductor",
+            "name": "Abduttori + adduttori",
+            "setCount": 4,
+            "scheme": "20",
+            "restSeconds": 30,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d3-calf",
+            "name": "Calf",
+            "setCount": 2,
+            "scheme": "40",
+            "restSeconds": 30,
+            "notes": "",
+            "loadMode": "mixed"
+          }
+        ]
+      },
+      {
+        "id": "p2b-d4",
+        "title": "Giorno 04",
+        "subtitle": "Scheda B · Petto · Spalle · Tricipiti",
+        "slot": 4,
+        "exercises": [
+          {
+            "id": "p2b-d4-smith45",
+            "name": "Distensioni 45° Multipower",
+            "setCount": 4,
+            "scheme": "12",
+            "restSeconds": 60,
+            "notes": "4 secondi a scendere.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d4-cablehigh",
+            "name": "Croci cavi dall’alto",
+            "setCount": 1,
+            "scheme": "5ST",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d4-lateral",
+            "name": "Alzate laterali manubri",
+            "setCount": 4,
+            "scheme": "1F · 2W · 1B",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d4-press90",
+            "name": "Distensioni 90° Multipower",
+            "setCount": 4,
+            "scheme": "1F · 2W · 1B",
+            "restSeconds": 60,
+            "notes": "In ogni working set: 1 rest-pause.",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d4-cablelat",
+            "name": "Alzate laterali cavi 1 braccio",
+            "setCount": 3,
+            "scheme": "8 + 8",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d4-hammerlat",
+            "name": "Alzate laterali manubri presa a martello",
+            "setCount": 3,
+            "scheme": "10",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d4-frenchrope",
+            "name": "Tricipiti French press cavo alto corda",
+            "setCount": 3,
+            "scheme": "8 + 8",
+            "restSeconds": 60,
+            "notes": "",
+            "loadMode": "weight"
+          },
+          {
+            "id": "p2b-d4-benchdip",
+            "name": "DIP su panca",
+            "setCount": 4,
+            "scheme": "Max",
+            "restSeconds": 60,
+            "notes": "Mani sulla panca e piedi in sospensione oppure a terra.",
+            "loadMode": "bodyweight"
+          }
+        ]
+      }
+    ]
+  },
+  "extras": [
+    {
+      "id": "abs",
+      "title": "Scheda addominali",
+      "subtitle": "Circuito · 2–4 volte a settimana",
+      "slot": 90,
+      "exercises": [
+        {
+          "id": "abs-crunch",
+          "name": "Crunch",
+          "setCount": 5,
+          "scheme": "30 sec",
+          "restSeconds": 0,
+          "notes": "Passa subito all’esercizio successivo.",
+          "loadMode": "timed"
+        },
+        {
+          "id": "abs-legraise",
+          "name": "Leg raises",
+          "setCount": 5,
+          "scheme": "30 sec",
+          "restSeconds": 0,
+          "notes": "Passa subito all’esercizio successivo.",
+          "loadMode": "timed"
+        },
+        {
+          "id": "abs-plank",
+          "name": "Plank",
+          "setCount": 5,
+          "scheme": "30 sec",
+          "restSeconds": 0,
+          "notes": "Passa subito all’esercizio successivo.",
+          "loadMode": "timed"
+        },
+        {
+          "id": "abs-vacuum",
+          "name": "Vacuum",
+          "setCount": 5,
+          "scheme": "30 sec",
+          "restSeconds": 40,
+          "notes": "Riposa 40 secondi alla fine di ogni giro.",
+          "loadMode": "timed"
+        }
+      ]
+    },
+    {
+      "id": "deload",
+      "title": "Scheda deload 01",
+      "subtitle": "Full body · 1–3 volte nella settimana di scarico",
+      "slot": 91,
+      "exercises": [
+        {
+          "id": "deload-chest",
+          "name": "Chest press",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-incline",
+          "name": "Incline chest",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-lat",
+          "name": "Lat machine presa larga",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-pulley",
+          "name": "Pulley triangolo",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-lateral",
+          "name": "Alzate laterali",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-press",
+          "name": "Distensioni manubri seduto",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-biceps",
+          "name": "Bicipiti manubri insieme",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-triceps",
+          "name": "Tricipiti cavo stretto",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-legext",
+          "name": "Leg extension",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-legcurl",
+          "name": "Leg curl",
+          "setCount": 3,
+          "scheme": "10",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "weight"
+        },
+        {
+          "id": "deload-calf",
+          "name": "Calf",
+          "setCount": 3,
+          "scheme": "20",
+          "restSeconds": 60,
+          "notes": "",
+          "loadMode": "mixed"
+        },
+        {
+          "id": "deload-crunch",
+          "name": "Crunch",
+          "setCount": 4,
+          "scheme": "20",
+          "restSeconds": 30,
+          "notes": "",
+          "loadMode": "bodyweight"
+        }
+      ]
+    }
+  ],
+  "notationLegend": [
+    {
+      "code": "WU",
+      "meaning": "Warm-up / riscaldamento"
+    },
+    {
+      "code": "F",
+      "meaning": "Feeder set"
+    },
+    {
+      "code": "W",
+      "meaning": "Working set"
+    },
+    {
+      "code": "B",
+      "meaning": "Back-off set"
+    },
+    {
+      "code": "ST",
+      "meaning": "Set speciale indicato nella scheda"
+    },
+    {
+      "code": "RIR",
+      "meaning": "Ripetizioni in riserva"
+    }
+  ]
+}

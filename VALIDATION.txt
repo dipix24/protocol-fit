@@ -1,0 +1,34 @@
+PROTOCOL FIT PWA 2.0 — VALIDAZIONE
+==================================
+
+Controlli statici
+- app.js: sintassi JavaScript verificata con Node.js.
+- db.js: sintassi JavaScript verificata con Node.js.
+- engine.js: sintassi JavaScript verificata con Node.js.
+- plan.json e manifest.webmanifest: JSON validi.
+- Tutti i file elencati dal service worker sono presenti.
+- Nessuna dipendenza da CDN o servizi esterni.
+
+Controlli della scheda
+- 15 workout totali dopo l'eliminazione dell'Opzione 1 del Giorno 05.
+- 126 esercizi e 431 serie preimpostate.
+- Fase 01: 5 workout.
+- Giorno 04 Fase 01: solo Spalle · Addome, nessun calf, circuito addominale finale presente.
+- Giorno 05 Fase 01: unica versione; nessun calf; presenti curl al cavo con bilanciere EZ su panca 45° e tricipiti singolo al cavo con straps.
+- Fase 02 A/B ed extra preservati dalla versione 1.1.
+
+Test funzionali automatizzati nel browser
+- Avvio e rendering della Home.
+- Apertura del dettaglio workout.
+- Avvio della sessione.
+- Registrazione di una serie con un tap.
+- Avvio automatico del timer.
+- Check-in readiness e ricalcolo del profilo.
+- Salvataggio workout e comparsa nello storico.
+- Rendering della pagina Analisi.
+- Inserimento e salvataggio di una misurazione corporea.
+- Navigazione tra le quattro sezioni.
+- Nessun errore JavaScript rilevato nel flusso testato.
+
+Nota
+Il test finale su Safari iOS e l'installazione dalla Home devono essere eseguiti sul dispositivo reale, perché l'ambiente di creazione non dispone di un iPhone fisico.
